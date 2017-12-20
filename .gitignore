@@ -1,4 +1,4 @@
 swagger_codegen/
 swagger_server/
-requirements.txt
 venv/
+/requirements.txt
