@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Hello World"
+  description: "A sample API that says hello"
+  contact:
+    name: "You name here"
+  license:
+    name: "MIT"
+host: "localhost:8080"
+basePath: "/api/v1"
+schemes:
+    - "http"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /message:
+    get:
+      description: "Returns a greeting."
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Message"
+definitions:
+  Message:
+    type: "object"
+    properties:
+      message:
+        type: "string"
