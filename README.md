@@ -8,9 +8,6 @@ Included:
 - A codegen shell script that will convert a swagger file to a skeleton python/flash project.
 
 
-This is a containerized swagger-editor with URL loading and automatic file saving.
-
-
 ### Build the container
 
 Build the docker container:
