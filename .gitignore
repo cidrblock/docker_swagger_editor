@@ -2,3 +2,4 @@ swagger_codegen/
 swagger_server/
 venv/
 /requirements.txt
+*.pyc
