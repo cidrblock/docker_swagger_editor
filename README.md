@@ -1,12 +1,10 @@
 ### Docker swagger editor
 
-This repository serves as a jump start for building APIs using swagger, swagger editor, and swagger codegen.  It is currently set up to build a python flask project.
+This repository serves as a jump start for building APIs using swagger, swagger editor, and swagger codegen.
 
-Included:
+Swagger editor is pulled from https://github.com/swagger-api/swagger-editor.  The index.html file is patched to enable automatic saving of the swagger file as it is edited.
 
-- A dockerfile to build a containerized version of the swagger editor that has automatic file saving enabled
-- A codegen shell script that will convert a swagger file to a skeleton python/flash project.
-
+A simple flask python script serves as the backend api which both serves the swagger file and saves it.
 
 ### Build the container
 
