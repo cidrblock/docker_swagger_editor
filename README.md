@@ -32,30 +32,4 @@ replace api.yml with the name of your swagger file if different
 
 ### Generate the code
 
-Copy the `codegenit.sh` script into your project folder.
-
-When you have completed your edits:
-
-```
-./codegenit.sh api.yml
-```
-
-### Run the API
-
-```
-virtualenv venv -p python3
-source venv/bin/activate
-pip install -r requirements.txt
-python -m swagger_server
-```
-and point your browser to
-
-```
-http://localhost:8080/api/v1/ui
-```
-
-or curl it
-
-```
-curl http://localhost:8080/api/v1/message
-```
+See https://github.com/cidrblock/codegenit
